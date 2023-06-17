@@ -9,7 +9,8 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("raj80dockerid/test")
+       //app = docker.build("raj80dockerid/test")
+        app = docker.build("dockernatehere/test_one")
     }
 
     stage('Test image') {
